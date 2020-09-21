@@ -1,4 +1,5 @@
 package ru.lab.mirea2;
+
 import java.lang.*;
 
 public class author
@@ -20,10 +21,11 @@ public class author
         return email;
     }
     public char getGender(){
+
         return gender;
     }
-    public author(){
-        gender="";
-        gender=
+    public String toString(){
+        return ""+this.name+" ("+this.gender+") at "+this.email+"";
     }
+
 }
